@@ -1,4 +1,4 @@
-Curso inmersion (12 horas)
+Curso inmersion en automatización y Robótica (12 horas)
 Construye tu primer robot autónomo
 
 Duración total: 12 horas
@@ -7,18 +7,8 @@ Formato sugerido:
 3 sesiones de 4 horas
 
 Perfil:
+profesionistas  general
 
-arquitectos
-
-diseñadores
-
-administradores
-
-abogados
-
-público general
-
-No se requieren conocimientos previos.
 
 Objetivo del curso
 
