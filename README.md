@@ -1,7 +1,7 @@
-# Curso Intensivo de Mecatrónica (12 horas)
+# Curso Inmersión en  Mecatrónica (12 horas)
 ## Construye tu primer robot autónomo
 
-Curso introductorio dirigido a personas **sin formación en ingeniería** (arquitectos, diseñadores, abogados, administradores o público general).
+Curso introductorio dirigido a profesionsitas .
 
 El objetivo es **comprender los principios de la mecatrónica construyendo un robot real**.
 
@@ -17,7 +17,8 @@ Al finalizar el curso el participante será capaz de:
 - Programar un microcontrolador
 - Construir un robot móvil simple
 - Implementar comportamiento autónomo
-
+## Robot seguidor de línea
+![Robot](line_follower_robot.gif)
 ---
 
 # Proyecto del curso
