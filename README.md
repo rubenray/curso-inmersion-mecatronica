@@ -1,210 +1,97 @@
-Curso inmersion en automatización y Robótica (12 horas)
-Construye tu primer robot autónomo
+# Curso Intensivo de Mecatrónica (12 horas)
+## Construye tu primer robot autónomo
 
-Duración total: 12 horas
+Curso introductorio dirigido a personas **sin formación en ingeniería** (arquitectos, diseñadores, abogados, administradores o público general).
+
+El objetivo es **comprender los principios de la mecatrónica construyendo un robot real**.
+
+---
+
+# Objetivos del curso
+
+Al finalizar el curso el participante será capaz de:
+
+- Comprender qué es la mecatrónica
+- Identificar sensores y actuadores
+- Conectar circuitos electrónicos básicos
+- Programar un microcontrolador
+- Construir un robot móvil simple
+- Implementar comportamiento autónomo
+
+---
+
+# Proyecto del curso
+
+Durante el curso los alumnos construirán un:
+
+## Robot seguidor de línea
+
+El robot utilizará:
+
+- sensores infrarrojos
+- motores DC
+- control mediante microcontrolador
+- algoritmo de seguimiento de línea
+
+---
+
+# Duración
+
+**12 horas totales**
 
 Formato sugerido:
-3 sesiones de 4 horas
 
-Perfil:
-profesionistas  general
+- 3 sesiones de 4 horas
 
+---
 
-Objetivo del curso
+# Sesión 1 — Fundamentos de Mecatrónica (4 horas)
 
-Al final del curso el alumno podrá:
+## Introducción a la Mecatrónica
 
-entender qué es la mecatrónica
+Conceptos básicos:
 
-conectar sensores y motores
+- Mecánica
+- Electrónica
+- Control
+- Software
 
-programar lógica básica
+Ejemplos de sistemas mecatrónicos:
 
-construir un robot autónomo funcional
+- robots industriales
+- drones
+- impresoras 3D
+- automóviles modernos
 
-Proyecto del curso
+---
 
-Robot móvil simple que:
+## Electrónica básica
 
-detecta una línea
+Conceptos fundamentales:
 
-sigue la línea automáticamente
+- Voltaje
+- Corriente
+- Resistencia
 
-Este proyecto es ideal porque integra:
+Primer circuito:
 
-sensores
+- LED
+- resistencia
+- microcontrolador
 
-actuadores
+### Primer programa
 
-control
+```cpp
+int led = 13;
 
-programación
+void setup(){
+  pinMode(led, OUTPUT);
+}
 
-Sesión 1 (4 h)
-Primer sistema mecatrónico
-Parte 1 — Introducción (30 min)
+void loop(){
+  digitalWrite(led, HIGH);
+  delay(500);
 
-Qué es la mecatrónica:
-
-sensores
-
-actuadores
-
-control
-
-software
-
-Ejemplos reales:
-
-robots
-
-drones
-
-impresoras 3D
-
-autos inteligentes
-
-Parte 2 — Electrónica mínima (1 h)
-
-Conceptos:
-
-voltaje
-
-corriente
-
-señal digital
-
-Práctica:
-
-Circuito básico:
-
-Arduino → LED
-
-Programa:
-
-LED parpadeando
-Parte 3 — Leer sensores (1.5 h)
-
-Sensor simple:
-
-sensor infrarrojo
-
-Actividad:
-
-ver el sensor en el monitor serial.
-
-Los alumnos observan:
-
-sensor = 0 o 1
-Parte 4 — Controlar motores (1 h)
-
-Conceptos:
-
-motor DC
-
-PWM
-
-dirección
-
-Actividad:
-
-controlar velocidad de un motor.
-
-Sesión 2 (4 h)
-Construcción del robot
-Parte 1 — Ensamble (1.5 h)
-
-Los alumnos ensamblan:
-
-chasis
-
-motores
-
-ruedas
-
-batería
-
-sensores
-
-Robot físico listo.
-
-Parte 2 — Control del movimiento (1.5 h)
-
-Primer programa del robot:
-
-avanzar
-retroceder
-girar
-
-Pruebas en mesa.
-
-Parte 3 — Introducción al comportamiento autónomo (1 h)
-
-Idea clave:
-
-retroalimentación
-
-Ejemplo:
-
-leer sensor
-decidir movimiento
-actuar
-Sesión 3 (4 h)
-Robot autónomo
-Parte 1 — Programar el seguidor de línea (2 h)
-
-Algoritmo simple:
-
-si sensor izquierdo ve línea
-   girar izquierda
-
-si sensor derecho ve línea
-   girar derecha
-
-si ambos no ven línea
-   avanzar
-Parte 2 — Ajuste del robot (1 h)
-
-Los alumnos ajustan:
-
-velocidad
-
-sensibilidad de sensores
-
-Parte 3 — Competencia final (1 h)
-
-Pista de prueba.
-
-Los robots compiten.
-
-Esto aumenta mucho la motivación.
-
-Hardware por alumno
-
-Kit simple:
-
-Arduino
-
-puente H
-
-2 motores DC
-
-sensor de línea
-
-chasis robot
-
-batería
-
-Costo aproximado:
-
-50–70 USD.
-
-Resultado
-
-Después de 12 horas los alumnos logran:
-
-su primer robot autónomo
-
-conocimientos básicos de mecatrónica
-
-experiencia real en sensores y actuadores
+  digitalWrite(led, LOW);
+  delay(500);
+}
